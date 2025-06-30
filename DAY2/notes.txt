@@ -135,9 +135,11 @@ How to change the sonarQuber server port number?
 --> Default port number is : 9000
 --> Default context path: / 
 
+switch to sonar-------- sudo su - sonar
+
 step 1: goto  cd /opt/sonarqube/conf
 
-step 2: vi sonar.properties  --> remove comment and add port and context path
+step 2: vi sonar.properties  --> remove the # symbol (this is called context ) comment and add port and context path
 
     105  sonar.web.context=/kkfunda
     107  sonar.web.port=8639
