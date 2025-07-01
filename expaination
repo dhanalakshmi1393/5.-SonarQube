@@ -1,0 +1,58 @@
+1. Bugs
+Definition: Logic errors or code that will cause unexpected behavior at runtime.
+
+Why it matters: Bugs cause your program to fail, crash, or behave incorrectly.
+
+Example: Using an uninitialized variable or null pointer dereference.  
+
+2. Vulnerabilities
+Definition: Security issues that attackers could exploit.
+
+Why it matters: Vulnerabilities make your application prone to attacks (e.g., SQL injection, XSS).
+
+Example: Storing passwords in plain text or using outdated libraries.
+
+3. 🧱 Code Smells
+Definition: Poor code design or implementation that doesn’t affect functionality but makes maintenance harder.
+
+Why it matters: Smelly code leads to technical debt and is hard to understand, extend, or debug.
+
+Example: Long methods, duplicate code, deeply nested if-else.
+
+4. 📊 Coverage (Code Coverage by Tests)
+Definition: Percentage of code that is covered by unit tests.
+
+Why it matters: More test coverage means fewer chances of bugs going unnoticed.
+
+Example: If your code has 80 lines and 60 lines are covered by tests, then coverage is 75%.
+
+5. 🔁 Duplications
+Definition: Repeated code blocks across files or methods.
+
+Why it matters: Duplicated code is hard to maintain—any change needs to be made in multiple places.
+
+Example: The same function logic copied and pasted across multiple classes.
+
+6. 📏 Code Complexity (Cognitive / Cyclomatic Complexity)
+Definition: Measures how difficult the code is to understand.
+
+Why it matters: High complexity = harder to debug, test, and maintain.
+
+Example: Functions with many conditions, loops, or nested branches.
+
+7. 🛠️ Documentation & Code Style
+Definition: Checks for missing comments, proper naming, and formatting rules.
+
+Why it matters: Clean code is easier to read, review, and collaborate on.
+
+Example: Missing Javadoc or inconsistent naming conventions.
+
+✅ Why Use SonarQube?
+    Purpose	                             Benefit
+Prevent Bugs Early	             Catch issues before code reaches production
+Improve Maintainability	         Cleaner code helps in easier updates and feature additions
+Enforce Standards	               Consistent coding style across teams
+Security Compliance	             Ensure code follows security best practices (especially in regulated industries)
+CI/CD Integration	                Automatically runs in Jenkins/GitLab/etc. during build pipeline
+Team Collaboration	                Developers get direct feedback on their pull requests
+
